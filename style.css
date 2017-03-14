@@ -1,0 +1,47 @@
+body {
+  max-width: 1000px;
+}
+
+.nav {
+  width: 120px;
+  float: left;
+}
+
+.nav-item{
+  cursor: pointer;
+  padding: 0 15px;
+  color: #2C657F;
+}
+
+.nav .selected {
+  color: #57C9FF;
+}
+
+.header {
+  padding-left: 60px;
+  min-width: 100%;
+  text-align: center;
+}
+
+.header .name {
+  padding-top: 15px;
+  margin-bottom: 10px;
+}
+
+.header .title {
+  margin-top: 0px;
+}
+
+.hidden {
+  display: none;
+}
+
+.content {
+  float: right;
+  width: calc(100% - 120px);
+  text-align: center;
+}
+
+.summary {
+  padding: 15px 50px;
+}
