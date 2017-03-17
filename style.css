@@ -18,7 +18,6 @@ body {
 }
 
 .header {
-  padding-left: 60px;
   min-width: 100%;
   text-align: center;
 }
@@ -32,6 +31,12 @@ body {
   margin-top: 0px;
 }
 
+.beach-picture {
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+}
+
 .hidden {
   display: none;
 }
@@ -42,10 +47,27 @@ body {
 
 .content {
   float: right;
-  width: calc(100% - 120px);
+  width: calc(100% - 150px);
   text-align: center;
+  padding: 15px;
 }
 
 .summary {
-  padding: 15px 50px;
+  padding: 5px 50px;
+}
+
+.experience {
+  text-align: left;
+}
+
+.company-header h3 {
+  margin: .5em .75em;
+}
+
+.company-header h5 {
+  margin: .5em 1em;
+}
+
+.company-bullets ul li {
+  margin: .25em 0;
 }
