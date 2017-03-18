@@ -56,6 +56,11 @@ body {
   padding: 5px 50px;
 }
 
+.email-link {
+  text-decoration: none;
+  color: #57C9FF;
+}
+
 .experience {
   text-align: left;
 }
