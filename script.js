@@ -21,6 +21,8 @@ function navigate (e) {
     window.open('https://github.com/cdelauder');
   } else if (link === ' Linkedin') {
     window.open('https://linkedin.com/in/chrisdelauder/');
+  } else if (link === ' Email') {  
+    window.open('mailto:cdelauder@gmail.com');
   } else {
     changeSection(e, link);
   }
