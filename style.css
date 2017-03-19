@@ -76,3 +76,33 @@ body {
 .company-bullets ul li {
   margin: .25em 0;
 }
+
+@media (max-width: 700px) {
+  .nav {
+    width: 600px;
+    margin: 0 calc((100% - 600px) / 2);
+  }
+
+  .nav-item {
+    display: inline-block;
+  }
+
+  .content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav {
+    width: 400px;
+    margin: 0 calc((100% - 400px) / 2);
+  }
+
+  .nav-item {
+    display: inline-block;
+  }
+
+  .hidden-xs {
+    display: none;
+  }
+}
